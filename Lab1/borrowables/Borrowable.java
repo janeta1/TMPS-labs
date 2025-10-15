@@ -1,7 +1,7 @@
 package borrowables;
 
 public interface Borrowable {
-    boolean borrowItem(String borrowerName);
-    boolean returnItem();
-    boolean isAvailable();
+    public boolean borrowItem(String borrowerName);
+    public boolean returnItem();
+    public boolean isAvailable();
 }
