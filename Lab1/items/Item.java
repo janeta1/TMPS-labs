@@ -1,6 +1,6 @@
 package items;
 
-public class Item {
+abstract public class Item {
     private String title;
 
     public Item(String title) {

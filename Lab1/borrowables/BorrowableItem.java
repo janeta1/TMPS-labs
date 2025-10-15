@@ -40,4 +40,8 @@ public class BorrowableItem implements Borrowable {
     public Item getItem() {
         return item;
     }
+
+    public String getBorrowerId() {
+        return borrowerId;
+    }
 }
