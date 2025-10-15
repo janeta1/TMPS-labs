@@ -6,20 +6,16 @@ import items.Item;
 public class Main {
     public static void main(String[] args) {
         Library library = new Library();
-
-        // Create items
         Item book1 = new Book("1984", "George Orwell", "12345", "Dystopian");
         Item book2 = new Book("The Hobbit", "J.R.R. Tolkien", "67890", "Fantasy");
         Item dvd1 = new DVD("Inception", "Christopher Nolan", "Sci-Fi", 148);
         Item dvd2 = new DVD("The Matrix", "Wachowski Brothers", "Sci-Fi", 136);
 
-        // Wrap items as borrowable
         BorrowableItem libBook1 = new BorrowableItem(book1);
         BorrowableItem libBook2 = new BorrowableItem(book2);
         BorrowableItem libDVD1 = new BorrowableItem(dvd1);
         BorrowableItem libDVD2 = new BorrowableItem(dvd2);
 
-        // Add to library
         library.addItem(libBook1);
         library.addItem(libBook2);
         library.addItem(libDVD1);
