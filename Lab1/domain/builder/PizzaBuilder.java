@@ -12,14 +12,6 @@ public class PizzaBuilder implements IPizzaBuilder {
     private List<Topping> toppings;
     private Size size;
 
-    // // Start with a base pizza from a factory
-    // public PizzaBuilder fromBase(Pizza basePizza) {
-    //     this.basePizza = basePizza;
-    //     this.name = basePizza.getName();
-    //     this.price = basePizza.getPrice();
-    //     return this;
-    // }
-    
     @Override
     public void setBase(Pizza basePizza) {
         this.basePizza = basePizza;
